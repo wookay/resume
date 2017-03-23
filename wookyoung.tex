@@ -1,0 +1,117 @@
+% refer to https://github.com/jaredhoberock/personal/tree/master/doc/resume
+
+\documentclass[margin,line]{res}
+
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{tikz}
+
+\oddsidemargin=-0.5in
+\evensidemargin=-0.5in
+\textwidth=6.2in
+\itemsep=0in
+\parsep=0in
+
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+
+\newenvironment{list1}{
+  \begin{list}{$\checkmark$}{
+      \setlength{\parsep}{0in} \setlength{\parskip}{0.3cm}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0.3cm}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{WooKyoung Noh}
+
+\begin{resume}
+
+\vspace{-1.35cm}
+
+\begin{flushright}
+\begin{tabular}{@{}l|l}
+\texttt{wookay.noh@gmail.com } & \texttt{ github.com/wookay} \\
+\end{tabular}
+\end{flushright}
+
+\section{\sc Interests}
+Scientific Computing, Machine Learning, Data Visualization
+
+
+\section{\sc Professional Experiences}
+
+{\bf Woowa Brothers}, Seoul \hfill May 2014 - May 2015 \\
+{\em Research Engineer} \\
+Developed a web app for Japan-based food delivery service.
+
+{\bf H2Soft}, Seoul \hfill Jul 2011 - Feb 2013 \\
+{\em CTO} \\
+Developed game development tools for mobile.
+
+{\bf Shinhan BNP Paribas Asset Management Company}, Seoul \hfill Feb 2010 - Apr 2010 \\
+{\em Lead Developer} \\
+Developed a stock trading application for iOS.
+
+{\bf Mintech}, Seoul \hfill Jul 2009 - Jan 2010 \\
+{\em Research Engineer} \\
+Developed the 3G network connection manager for Mac.
+
+{\bf Orchard Party}, Seoul \hfill Oct 2008 - Jun 2009 \\
+{\em Research Engineer} \\
+Developed iOS games and toy apps.
+
+{\bf Center for Youth and Cultural Studiees in Yonsei University}, Seoul \hfill Oct 2007 - Sep 2008 \\
+{\em Research Engineer} \\
+Developed a website for the students who attending alternative schools. \\
+Research for community-based literacy learning.
+
+{\bf Playforum}, Seoul \hfill Feb 2006 - Sep 2007 \\
+{\em Research Engineer} \\
+Developed websites for gaming community and trading in-game items.
+
+{\bf Polypix}, Seoul \hfill Mar 2002 - Dec 2003 \\
+{\em Research Engineer} \\
+Developed an instant messenger for PC and PDA platform.
+
+{\bf Web Data Bank}, Seoul \hfill Jul 2000 - Feb 2002 \\
+{\em Research Engineer} \\
+Developed the system for content delivery network (CDN) services.
+
+
+\section{\sc Education}
+{\bf Kyungsung University}, Busan \\
+Bachelor of Science in Computer Engineering, February 2005
+
+
+\section{\sc Publications}
+{\bf Beautiful Julia Programming}\footnote{ Beautiful Julia Programming - \url{https://leanpub.com/bjp}} written in Korean, 2017
+
+
+\section{\sc Selected Conference Presentations}
+{\bf Swifter.jl} - Scripting, REPL for iOS App Development\footnote{ Swifter.jl, presented at JuliaCon 2016 - \url{https://www.youtube.com/watch?v=Jv1JQVQYm0I}} at JuliaCon 2016, MIT
+
+\vspace{1.5cm}
+
+\section{\sc Activities}
+
+\vspace{-0.1cm}
+
+\begin{list1}
+\item A small contributor to Julia
+\end{list1}
+
+\begin{list1}
+\item Maintaining open source project \\
+  {\bf Bukdu.jl}\footnote{ Bukdu.jl - \url{https://github.com/wookay/Bukdu.jl}}, a web development framework for Julia, 16 starred
+\end{list1}
+
+\begin{list1}
+\item Organizing local developer community \\
+  {\bf Julia Korea user group}\footnote{ Julia Korea user group - \url{https://facebook.com/groups/juliakorea}} since 2014
+\end{list1}
+
+\end{resume}
+
+\end{document}
